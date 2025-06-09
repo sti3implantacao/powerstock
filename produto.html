@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Power Chef - Vídeos Tutoriais</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    .accordion-button i {
+      font-size: 1.3rem;
+    }
+
+    .text-cadastro {
+      color: #0d6efd;
+    }
+
+    /* Azul */
+    .text-caixa {
+      color: #6610f2;
+    }
+
+    /* Roxo */
+    .text-vendas {
+      color: #198754;
+    }
+
+    /* Verde */
+    .text-mobile {
+      color: #fd7e14;
+    }
+
+    /* Laranja */
+    .text-estoque {
+      color: #6f42c1;
+    }
+
+    /* Roxo claro */
+    .text-promocoes {
+      color: #d63384;
+    }
+
+    /* Rosa */
+    .text-formacao {
+      color: #0dcaf0;
+    }
+
+    /* Azul claro */
+    .text-contas {
+      color: #ffc107;
+    }
+
+    /* Amarelo */
+    .text-ifood {
+      color: #dc3545;
+    }
+
+    /* Vermelho */
+    .text-relatorios {
+      color: #20c997;
+    }
+
+    /* Verde água */
+  </style>
+</head>
+
+<body class="bg-light">
+  <div class="container py-5">
+    <h1 class="mb-5 text-center">Power Chef — Vídeos Tutoriais</h1>
+
+    <!-- Filtro e busca -->
+    <div class="row mb-4">
+      <div class="col-md-6">
+        <input type="text" id="searchInput" class="form-control" placeholder="Buscar vídeos...">
+      </div>
+      <div class="col-md-6">
+        <select id="categorySelect" class="form-select">
+          <option value="">Todas as categorias</option>
+          <option value="cadastro">Cadastro</option>
+          <option value="caixa">Caixa</option>
+          <option value="vendas">Vendas</option>
+          <option value="mobile">Chef Mobile</option>
+          <option value="estoque">Estoque</option>
+          <option value="promocoes">Promoções</option>
+          <option value="formacao">Formação de Produto</option>
+          <option value="contas">Contas à Receber</option>
+          <option value="ifood">iFood</option>
+          <option value="relatorios">Relatórios</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="accordion" id="accordionVideos">
+
+      <!-- Cadastro -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#cadastro">
+            <i class="bi bi-pencil-square me-2 text-cadastro"></i> Cadastro
+          </button>
+        </h2>
+        <div id="cadastro" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="https://drive.google.com/file/d/1k-w3ePuSJKv4iMrSC8iLqAI8mVnDlodV/view"
+                  target="_blank">Cadastro de Produtos</a></li>
+              <li><a href="https://drive.google.com/file/d/16brI8uBiVWwWAYMLn4evfVh3ftFQodLA/view"
+                  target="_blank">Produto Complemento</a></li>
+              <li><a href="https://drive.google.com/file/d/1IUFHfVT_AnI45CDT3L8NG8iRvhL8O8g9/view"
+                  target="_blank">Produto por Etapa</a></li>
+              <li><a href="https://drive.google.com/file/d/1ikI84KN1RrBL4nnZwKJ2grF7sT169JCg/view"
+                  target="_blank">Produtos Favoritos</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Caixa -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#caixa">
+            <i class="bi bi-cash-coin me-2 text-caixa"></i> Caixa
+          </button>
+        </h2>
+        <div id="caixa" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="https://drive.google.com/file/d/1gVZp3pAX0IZMWG8aNfjgvZKsLHF76sfl/view"
+                  target="_blank">Abertura, Fechamento, Sangria e Suprimento</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vendas -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#vendas">
+            <i class="bi bi-cart-check me-2 text-vendas"></i> Vendas
+          </button>
+        </h2>
+        <div id="vendas" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="https://drive.google.com/file/d/16ORxsImCs-qIkG4Q7RFfRFMPbDqRi95p/view"
+                  target="_blank">Consultar Vendas</a></li>
+              <li><a href="https://drive.google.com/file/d/1EXG93gkzdjuZt2Ns8yASIiK8DLvXAzAz/view" target="_blank">Venda
+                  Mesa</a></li>
+              <li><a href="https://drive.google.com/file/d/1rVWvw863Se2DcK0JE7NhKPtw5DZM7eYS/view" target="_blank">Venda
+                  Balcão</a></li>
+              <li><a href="https://drive.google.com/file/d/1ykdOCvARRaWyPvL397fcEs6mLf2Mmh_R/view" target="_blank">Venda
+                  Delivery</a></li>
+              <li><a href="https://drive.google.com/file/d/1RY0bFgW8sWt4qCnI0Dt9n06f8T4KaJ2c/view" target="_blank">Venda
+                  Fiscal (DANFE)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chef Mobile -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mobile">
+            <i class="bi bi-phone me-2 text-mobile"></i> Chef Mobile
+          </button>
+        </h2>
+        <div id="mobile" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="https://drive.google.com/file/d/1WC_RBirBdmZCpLpiXb7DiIn2i6dX2I1x/view" target="_blank">Como
+                  usar o aplicativo Garçom</a></li>
+              <li><a href="https://drive.google.com/file/d/19bU8avy6vJyBTlMRuaA51h2qZRfBkupb/view"
+                  target="_blank">Configurando o aplicativo antes de usar</a></li>
+              <li><a href="https://drive.google.com/file/d/1m5W_Jr7TwS8r-2ctD-voCJFbpi5Bq9l_/view"
+                  target="_blank">Habilitando grupos para exibição no celular</a></li>
+              <li><a href="https://drive.google.com/file/d/1rER0T02vH8vc3e9pyOxk4pPykUDorEfq/view" target="_blank">Como
+                  fazer emissão fiscal pela maquininha</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Estoque -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#estoque">
+            <i class="bi bi-box-seam me-2 text-estoque"></i> Estoque
+          </button>
+        </h2>
+        <div id="estoque" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="https://drive.google.com/file/d/1xRzOoZIgIQWKa01dBVo7QDHDO4L2rOjH/view"
+                  target="_blank">Entrada XML</a></li>
+              <li><a href="https://drive.google.com/file/d/1rcX6_UmKCDr7--UtuPj6DE93WSE23RDB/view"
+                  target="_blank">Pedido de Compras</a></li>
+              <li><a href="https://drive.google.com/file/d/1KooN2_GbO9Gr0aGMkCfvY9lnN4YLbMGA/view"
+                  target="_blank">Lançamento para Correção de Estoque</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Promoções -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#promocoes">
+            <i class="bi bi-tags me-2 text-promocoes"></i> Promoções
+          </button>
+        </h2>
+        <div id="promocoes" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="https://drive.google.com/file/d/1aLCrQm0NdvUmBenpItthrskPGhupAFGG/view"
+                  target="_blank">Campanha Promocional</a></li>
+              <li><a href="https://drive.google.com/file/d/1r67HmivJfmNI8b6JhifhfEmOPkWgKhzD/view"
+                  target="_blank">Desconto 3 por 2</a></li>
+              <li><a href="https://drive.google.com/file/d/1IqJR_04P79YgosKj_vAyPFtKsYQqwKcq/view"
+                  target="_blank">Promoção Agendada</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Formação de Produto -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#formacao">
+            <i class="bi bi-diagram-3 me-2 text-formacao"></i> Formação de Produto
+          </button>
+        </h2>
+        <div id="formacao" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="https://drive.google.com/file/d/1R4GCmgUXvy9Jq13CU7_V5HEwkEkhBmAk/view"
+                  target="_blank">Cadastro de Produto de Venda</a></li>
+              <li><a href="https://drive.google.com/file/d/1bc6rMa0_yEdf3dTOz5LEmt4ubXtIBJFo/view"
+                  target="_blank">Cadastro de Insumo/Matéria-Prima</a></li>
+              <li><a href="https://drive.google.com/file/d/1nIIt6CRQFWTZQXfk1OuM5a43yjbFdumK/view"
+                  target="_blank">Montando Ficha Técnica (Vinculação)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contas à Receber -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#contas">
+            <i class="bi bi-wallet2 me-2 text-contas"></i> Contas à Receber
+          </button>
+        </h2>
+        <div id="contas" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="https://drive.google.com/file/d/1u6pIi8S5qs2Y26MRAtghOnEeKn-tUjfh/view"
+                  target="_blank">Vendas em carteira e baixa</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- iFood -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ifood">
+            <i class="bi bi-bag-check me-2 text-ifood"></i> iFood
+          </button>
+        </h2>
+        <div id="ifood" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="https://atendimento.sti3.com.br/kb/pt-br/article/218715/nova-api-ifood-como-utilizar"
+                  target="_blank">iFood | Como utilizar?</a></li>
+              <li><a
+                  href="https://atendimento.sti3.com.br/kb/pt-br/article/218719/nova-api-ifood-como-cadastrar-os-produtos-no-ifood"
+                  target="_blank">iFood | Cadastro de Produtos</a></li>
+              <li><a
+                  href="https://atendimento.sti3.com.br/kb/pt-br/article/218710/nova-api-ifood-como-fazer-as-vinculacoes"
+                  target="_blank">iFood | Vinculações</a></li>
+              <li><a
+                  href="https://atendimento.sti3.com.br/kb/pt-br/article/218708/nova-api-ifood-como-preparar-os-produtos-para-integracao"
+                  target="_blank">iFood | Preparar Produtos</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Relatórios -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#relatorios">
+            <i class="bi bi-graph-up-arrow me-2 text-relatorios"></i> Relatórios
+          </button>
+        </h2>
+        <div id="relatorios" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="https://drive.google.com/file/d/1xlyQfgJ_Vo59mBkwzc1it-ZhlmlEVSii/view"
+                  target="_blank">Relatório de Vendas</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const searchInput = document.getElementById('searchInput');
+    const categorySelect = document.getElementById('categorySelect');
+    const accordionItems = document.querySelectorAll('.accordion-item');
+
+    function filterContent() {
+      const searchText = searchInput.value.toLowerCase();
+      const selectedCategory = categorySelect.value;
+
+      accordionItems.forEach(item => {
+        const category = item.querySelector('.accordion-collapse').id;
+        const links = item.querySelectorAll('a');
+        let match = false;
+
+        links.forEach(link => {
+          const text = link.textContent.toLowerCase();
+          const href = link.href.toLowerCase();
+
+          if ((text.includes(searchText) || href.includes(searchText)) &&
+            (selectedCategory === '' || category === selectedCategory)) {
+            match = true;
+          }
+        });
+
+        item.style.display = match ? 'block' : 'none';
+      });
+    }
+
+    searchInput.addEventListener('input', filterContent);
+    categorySelect.addEventListener('change', filterContent);
+  </script>
+</body>
+
+</html>
